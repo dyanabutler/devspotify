@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+
+    <main class="main">
+
+      <!-- Player -->
+      <div class="section">
+        <div class="container">
+          <div class="player">
+            <!-- Cover image -->
+            <div class="player-cover"></div>
+
+            <!-- Dashboard -->
+            <div class="player-dashboard">
+              <!-- Track title -->
+              <div class="player-title">
+                <h3>Feelings</h3>
+                <h4>Ollie</h4>
+              </div>
+              <!-- Track progress -->
+              <div class="player-track">
+                <div class="player-track-current"></div>
+              </div>
+              <!-- Player Controls -->
+              <div class="player-controls">
+                <span class="timer current">00:36</span>
+                <a href="#"><i class="fas fa-step-backward"></i></a>
+                <a href="#"><i class="fas fa-play"></i></a>
+                <a href="#"><i class="fas fa-step-forward"></i></a>
+                <span class="timer full">02:38</span>
+              </div>
+            </div>
+
+            <div class="player-playlist">
+              <p>Playlist</p>
+              <ul>
+                <li class="current">
+                  Ollie - Feelings
+                  <span>02:38</span>
+                </li>
+                <li>
+                  Ollie - Love is poisen
+                  <span>02:52</span>
+                </li>
+                <li>
+                  NF - Drifitng
+                  <span>04:43</span>
+                </li>
+                <li>
+                  Ollie - Emotions
+                  <span>03:56</span>
+                </li>
+                <li>
+                  Ollie - Real Love
+                  <span>03:18</span>
+                </li>
+                <li>
+                  NF - Layers
+                  <span>04:38</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="legal">&copy; Created by <a href="#">@bojanwebdev</a></p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/playlist.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

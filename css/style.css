@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  line-height: 1.2;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #2d343c;
+}
+
+h3, h4 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 40px 0;
+}
+
+.footer {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.legal {
+  font-size: 12px;
+}
+.legal a {
+  color: #ff9e15;
+  text-decoration: none;
+}
+.legal a:hover {
+  text-decoration: underline;
+}
+
+.player {
+  background: #22272b;
+  box-shadow: 0 0 5px 15px rgba(34, 39, 43, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.player-cover {
+  min-height: 350px;
+  background: url(../images/cover-image.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.player-cover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #22272b);
+}
+.player-dashboard {
+  padding: 40px 60px 80px;
+}
+.player-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.player-title h3 {
+  margin-bottom: 5px;
+}
+.player-title h4 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.player-track {
+  height: 4px;
+  border-radius: 2px;
+  background: #fff;
+  margin-bottom: 25px;
+}
+.player-track-current {
+  width: 136px;
+  background: #ff9e15;
+  height: 100%;
+}
+.player-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player-controls a,
+.player-controls span {
+  display: block;
+  margin: 0 25px;
+}
+.player-controls a {
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+.player-controls a i.fa-play,
+.player-controls a i.fa-pause {
+  font-size: 28px;
+}
+.player-controls a:hover {
+  color: #ff9e15;
+}
+.player-controls span {
+  font-size: 12px;
+}
+.player-playlist {
+  margin: 0 60px;
+  padding-bottom: 75px;
+  font-size: 14px;
+}
+.player-playlist p {
+  color: rgba(255, 158, 21, 0.3);
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 158, 21, 0.3);
+  margin-bottom: 20px;
+}
+.player-playlist ul {
+  padding: 0 20px;
+}
+.player-playlist ul li {
+  padding: 10px 0;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease-in-out;
+}
+.player-playlist ul li span {
+  float: right;
+}
+.player-playlist ul li:hover {
+  color: #ff9e15;
+}
+.player-playlist ul li.current {
+  color: #ff9e15;
+}
+
+/*# sourceMappingURL=style.css.map */
